@@ -9,7 +9,7 @@ class UserRepository extends BaseRepository {
 	/**
 	 * Create a new UserRepository instance.
 	 *
-   	 * @param  App\Models\User $user
+   	 * @param  \App\Models\User $user
 	 * @return void
 	 */
 	public function __construct($user)
@@ -20,8 +20,7 @@ class UserRepository extends BaseRepository {
 	/**
 	 * Get user collection.
 	 *
-	 * @param  string  $slug
-	 * @return Illuminate\Support\Collection
+	 * @return \App\Models\User|\Illuminate\Database\Eloquent\Collection
 	 */
 	public function show()
 	{

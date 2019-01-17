@@ -2,21 +2,20 @@
 
 namespace App\Repositories;
 
-use App\Repositories\BaseRepository;
-
-class HomeRepository extends BaseRepository {
+class HomeRepository extends BaseRepository
+{
 	
 	/**
-	 * The Tag instance.
+	 * The User instance.
 	 *
-	 * @var App\Models\Users
+	 * @var \App\Models\User
 	 */
 	protected $user;
 
 	/**
 	 * Create a new HomeRepository instance.
 	 *
-	 * @param  App\Models\Users $users
+	 * @param  \App\Models\User $user
 	 * @return void
 	 */
 	public function __construct($user)
@@ -27,7 +26,9 @@ class HomeRepository extends BaseRepository {
 	/**
 	 * Create a query for Post.
 	 *
-	 * @return Illuminate\Database\Eloquent\Builder
+	 * @param $skip
+	 * @param $take
+	 * @return \Illuminate\Database\Eloquent\Builder
 	 */
   	private function query($skip, $take)
 	{	
@@ -40,8 +41,9 @@ class HomeRepository extends BaseRepository {
 	/**
 	 * Get post collection.
 	 *
-	 * @param  int  $n
-	 * @return Illuminate\Support\Collection
+	 * @param $skip
+	 * @param $take
+	 * @return \Illuminate\Database\Eloquent\Builder
 	 */
 	public function index($skip, $take)
 	{
