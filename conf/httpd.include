@@ -1,0 +1,11 @@
+<VirtualHost    172.25.1.105:80>
+    ServerName      jguyt.venduse.org.dev01
+    ServerAlias     jguyt.venduse.org.dev01.daisyconbv.local
+    DocumentRoot    /home/j.guyt/vhosts/venduse.org/httpdocs
+    <Directory /home/j.guyt/vhosts/venduse.org/httpdocs>
+    AllowOverride All
+        php_admin_value open_basedir "/tmp:/home/httpd/includes:/home/j.guyt/vhosts/venduse.org:/home/upload:/home/j.guyt/pear"
+    Options -Includes -ExecCGI FollowSymLinks
+    </Directory>
+</VirtualHost>
+
