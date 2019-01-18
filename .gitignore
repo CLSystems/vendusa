@@ -1,3 +1,2 @@
-vendor/
-storage/cache/
-storage/log/
+config.php
+admin/config.php
