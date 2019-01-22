@@ -1,0 +1,18 @@
+2019-01-18 14:54:10 - PHP Warning:  fopen(/var/www/html/venduse.org/public_html/system/storage/session//sess_de057e9364bf37005934ca20be): failed to open stream: Permission denied in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 29
+2019-01-18 14:54:10 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 31
+2019-01-18 14:54:10 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 33
+2019-01-18 14:54:10 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 35
+2019-01-18 14:54:10 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 37
+2019-01-18 14:54:10 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 39
+2019-01-18 14:54:25 - PHP Warning:  fopen(/var/www/html/venduse.org/public_html/system/storage/session//sess_de057e9364bf37005934ca20be): failed to open stream: Permission denied in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 29
+2019-01-18 14:54:25 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 31
+2019-01-18 14:54:25 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 33
+2019-01-18 14:54:25 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 35
+2019-01-18 14:54:25 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 37
+2019-01-18 14:54:25 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 39
+2019-01-18 14:54:30 - PHP Warning:  fopen(/var/www/html/venduse.org/public_html/system/storage/session//sess_de057e9364bf37005934ca20be): failed to open stream: Permission denied in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 29
+2019-01-18 14:54:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 31
+2019-01-18 14:54:30 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 33
+2019-01-18 14:54:30 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 35
+2019-01-18 14:54:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 37
+2019-01-18 14:54:30 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/venduse.org/public_html/system/library/session/file.php on line 39
