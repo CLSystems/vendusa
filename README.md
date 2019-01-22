@@ -1,1 +1,1 @@
-VENDor USEage statistics aggregator
+VENDor USAge statistics aggregator
